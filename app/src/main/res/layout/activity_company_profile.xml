@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/onetwoone"
+    android:background="@color/cardview_dark_background"
+    tools:context=".CompanyProfile">
+    <ImageView
+        android:id="@+id/companyimage"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/ic_accessibility_black_24dp"
+        android:padding="40dp"
+        ></ImageView>
+
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:entries="@array/country_arrays"
+
+        android:background="@color/colorPrimaryDark"
+        android:prompt="@string/country_prompt" />
+
+
+    <Button
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Show Profile"
+        android:id="@+id/buttonconvert"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_rounded"
+        android:textSize="20dp"
+        >
+
+    </Button>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:text="Compnay Name"
+       android:id="@+id/cname"
+       android:textColor="@color/colorPrimary"
+       android:textStyle="bold"
+       android:fontFamily="sans-serif"
+       android:layout_marginTop="20dp"
+       android:textSize="20dp"
+       android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Compnay price"
+        android:id="@+id/cprice"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Compnay Ceo"
+        android:id="@+id/ceo"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="website"
+        android:id="@+id/website"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="sector"
+        android:id="@+id/sectr"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Description"
+        android:id="@+id/descpt"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"></TextView>
+</LinearLayout>
